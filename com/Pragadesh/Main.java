@@ -1,3 +1,5 @@
+package com.Pragadesh;
+
 import java.util.Scanner;
 
 class Main {
