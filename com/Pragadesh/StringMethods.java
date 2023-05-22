@@ -6,7 +6,11 @@ public class StringMethods {
 
 		// boolean result = name.equals("Pragadesh");
 		boolean result = name.equalsIgnoreCase("pragadesh");
+		// int result = name.length();
 
+		// String result = name.trim();
+
+		
 		System.out.println(result);
 	}
 }
