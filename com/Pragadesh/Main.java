@@ -40,8 +40,15 @@ public class Main {
 		System.out.println("What is ur name? ");
 		String name	= scanner.nextLine();
 
-		System.out.println("Hello "+name);
+		
+		int age = scanner.nextInt();
+		scanner.nextLine(); // empty nextline since java thinks \n in enter in the input of the upcoming nextline 
 
+		String food = scanner.nextLine();
+
+		System.out.println("Hello "+ name);
+		System.out.println("You age is "+age);
+		System.out.println("Your fav food is "+food);
 		
 		// System.out.println("x: "+x);
 		// System.out.println("y: "+y);
