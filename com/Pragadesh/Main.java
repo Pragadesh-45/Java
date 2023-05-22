@@ -58,17 +58,27 @@
 
 // import java.util.Scanner;
 
+// public class Main {
+// 	public static void main (String[] args) {
+
+// 		double friends = 10;
+// 		friends = (double) friends / 3;
+
+// 		System.out.println(friends);
+
+// 		}
+// }
+
+// import javax.swing.JoptionPane;
+
+import javax.swing.JOptionPane;
+
 public class Main {
-	public static void main (String[] args) {
-
-		double friends = 10;
-		friends = (double) friends / 3;
-
-		System.out.println(friends);
-
-		}
+    public static void main(String[] args) {
+        String name = JOptionPane.showInputDialog("Enter your name");
+        System.out.println("Hello, " + name + "!");
+    }
 }
-
 
 
 
