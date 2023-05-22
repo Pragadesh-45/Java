@@ -30,31 +30,44 @@
 // } 
 
 
-import java.util.Scanner;
+// import java.util.Scanner;
+
+// public class Main {
+// 	public static void main (String[] args) {
+
+// 		Scanner scanner = new Scanner(System.in);
+
+// 		System.out.println("What is ur name? ");
+// 		String name	= scanner.nextLine();
+
+		
+// 		int age = scanner.nextInt();
+// 		scanner.nextLine(); // empty nextline since java thinks \n in enter in the input of the upcoming nextline 
+
+// 		String food = scanner.nextLine();
+
+// 		System.out.println("Hello "+ name);
+// 		System.out.println("You age is "+age);
+// 		System.out.println("Your fav food is "+food);
+		
+// 		// System.out.println("x: "+x);
+// 		// System.out.println("y: "+y);
+// 		}
+// }
+
+
+// import java.util.Scanner;
 
 public class Main {
 	public static void main (String[] args) {
 
-		Scanner scanner = new Scanner(System.in);
+		double friends = 10;
+		friends = (double) friends / 3;
 
-		System.out.println("What is ur name? ");
-		String name	= scanner.nextLine();
+		System.out.println(friends);
 
-		
-		int age = scanner.nextInt();
-		scanner.nextLine(); // empty nextline since java thinks \n in enter in the input of the upcoming nextline 
-
-		String food = scanner.nextLine();
-
-		System.out.println("Hello "+ name);
-		System.out.println("You age is "+age);
-		System.out.println("Your fav food is "+food);
-		
-		// System.out.println("x: "+x);
-		// System.out.println("y: "+y);
 		}
 }
-
 
 
 
