@@ -10,7 +10,7 @@ public class Human {
 	Human(String name, int age, double weight) {
 		this.name = name;
 		this.age = age;
-		this weight = weight;
+		this.weight = weight;
 	}
 
 	void eat() {
